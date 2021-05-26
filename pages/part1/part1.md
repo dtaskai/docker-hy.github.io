@@ -7,7 +7,7 @@ order: 1
 ---
 
 <div class="learning-goals" markdown="1">
-HeheXD
+Lets see if this changes
 </div>
 
 <div class="section" markdown="1">
