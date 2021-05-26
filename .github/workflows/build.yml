@@ -24,8 +24,8 @@ jobs:
         tags: dtaskai/study:latest
 
     - name: Deploy to Heroku
-        uses: akhileshns/heroku-deploy@v3.12.12
-        with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: devopswithdocker-actions #Must be unique in Heroku
-          heroku_email: taskaidomi@gmail.com
+      uses: akhileshns/heroku-deploy@v3.12.12
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: devopswithdocker-actions #Must be unique in Heroku
+        heroku_email: taskaidomi@gmail.com
